@@ -4,7 +4,7 @@ var schema = mongoose.Schema;
 var platSchema = new schema ({
     nom: String,
     ingrdient: String,
-    prix:number
+    prix:Number
 });
 
 
