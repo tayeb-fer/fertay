@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var schema = mongoose.Schema ;
+var Schema = mongoose.Schema ;
 
 var restaurantSchema  = new Schema ({
     nom: String,
@@ -7,8 +7,8 @@ var restaurantSchema  = new Schema ({
         lat:Number,
         long:Number
     },
-    image:string,
-    plats:[string]
+    image:String,
+    plats:[String]
 })
 
 var Restaurant = mongoose.model('restaurant',restaurantSchema);
